@@ -134,12 +134,20 @@
     0% {
         transform: rotate(0deg)
     }
-
     100% {
         transform: rotate(360deg)
     }
 }
 
+.cd {
+    position: relative;
+    z-index: 100;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
+}
 .fa-rotate-90 {
     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
     transform: rotate(90deg)
@@ -13451,21 +13459,35 @@ select.bs-select-hidden,.bootstrap-select>select.bs-select-hidden,select.selectp
 }
 
 @font-face {
-    font-family: "Graphik Semibold";
+    font-family: "Graphik";
     src: url("../fonts/Graphik-Semibold-Web.eot");
     src: url("../fonts/Graphik-Semibold-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Graphik-Semibold-Web.woff2") format("woff2"),url("../fonts/Graphik-Semibold-Web.woff") format("woff"),url("../fonts/Graphik-Semibold-Web.ttf") format("truetype");
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
-    font-display: swap
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "Graphik Bold";
+    font-family: "Graphik";
     src: url("../fonts/Graphik-Bold-Web.eot");
     src: url("../fonts/Graphik-Bold-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Graphik-Bold-Web.woff2") format("woff2"),url("../fonts/Graphik-Bold-Web.woff") format("woff"),url("../fonts/Graphik-Bold-Web.ttf") format("truetype");
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
-    font-display: swap
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://funpay.com/702/fonts/Graphik-Black-Web.woff2") format("woff2"),url("./fonts/Graphik-Black-Web.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1.page-header, h1.balances-header, .modal-title.h1 {
+    font-family: "Graphik", sans-serif;
+    font-weight: 900 !important;
+    text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.2);
 }
 
 ::selection {
@@ -13572,7 +13594,7 @@ html>body .pb0 {
 }
 
 .font-custom {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 .text-mini {
@@ -13661,11 +13683,11 @@ h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:fi
 h1,.h1 {
     margin-top: 15px;
     line-height: 1;
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 h2,.h2 {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 h3,h4,.h3,.h4 {
@@ -14023,7 +14045,7 @@ textarea.form-control {
 }
 
 .form-control-feedback {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif;
     width: auto;
     right: 14px
 }
@@ -14824,7 +14846,7 @@ a.user-link-dropdown .user-link-desc {
 }
 
 .nav-tabs {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 17px
 }
 
@@ -15277,7 +15299,7 @@ html,body {
     width: 800px;
     height: 800px;
     overflow: hidden;
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 .cd .spacer {
@@ -15619,7 +15641,7 @@ a.cd-satellite:active {
 
 .game-title {
     margin-bottom: 7px;
-    font-family: "Graphik Semibold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 .game-title a {
@@ -17098,7 +17120,7 @@ a.chat-clone {
 }
 
 .rating-value {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 .rating-value .big {
@@ -18834,7 +18856,7 @@ textarea {
 }
 
 .profile-data-container .offer-list-title-container .offer-list-title h3 {
-    font-family: "Graphik Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Graphik","Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-bottom: 0
 }
 
