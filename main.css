@@ -13460,6 +13460,22 @@ select.bs-select-hidden,.bootstrap-select>select.bs-select-hidden,select.selectp
 
 @font-face {
     font-family: "Graphik";
+    src: url("https://funpay.com/702/fonts/Graphik-Regular-Web.woff2") format("woff2"),url("../fonts/Graphik-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://funpay.com/702/fonts/Graphik-Medium-Web.woff2") format("woff2"),url("../fonts/Graphik-Medium-Web.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
     src: url("../fonts/Graphik-Semibold-Web.eot");
     src: url("../fonts/Graphik-Semibold-Web.eot#iefix") format("embedded-opentype"),url("../fonts/Graphik-Semibold-Web.woff2") format("woff2"),url("../fonts/Graphik-Semibold-Web.woff") format("woff"),url("../fonts/Graphik-Semibold-Web.ttf") format("truetype");
     font-weight: 600;
